@@ -1,0 +1,56 @@
+.stopwatch-container{
+    padding:8em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header i{
+
+    color: white;
+    font-size: 90pt;
+}
+*{
+    background-color: black;
+    text-align: center;
+}
+.body-stopwatch{
+    padding: 1em;
+}
+.body-stopwatch #counter{
+    font-weight: bold;
+    font-size: 40pt;
+    color: white;
+}
+
+#stopwatch-title{
+   
+    
+}
+
+.disabledButton{
+   visibility: hidden;
+}
+.enabledButton{
+    visibility:visible;
+}
+.background-default{
+    background-color: rgb(126, 9, 9);
+    padding:1em;
+    text-align: center;
+    
+    color: white;
+    font-size: 20pt;  
+}
+.actions-bar button{
+    margin-top: 1em;
+    padding: 2em;
+    border: none;
+    border-radius: 50%;
+    justify-content: space-between;
+    background-color: white;
+}
+.actions-bar button:hover{
+    cursor: pointer;
+    background-color: rgb(126, 9, 9);
+}
